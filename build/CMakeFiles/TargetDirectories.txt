@@ -1,0 +1,3 @@
+/home/deek/threads/build/CMakeFiles/threads.dir
+/home/deek/threads/build/CMakeFiles/edit_cache.dir
+/home/deek/threads/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.8)
+project( threads )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} Threads)
+set(CMAKE_CXX_STANDARD 20)
+add_executable( threads main.cpp Threads/threads.cpp)
+target_link_libraries( threads ${OpenCV_LIBS} )
